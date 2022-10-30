@@ -278,6 +278,8 @@ header {
 .lorem-list {
   display: flex;
   gap: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 .doing-section {
@@ -327,7 +329,7 @@ header {
 .social-link:hover,
 .social-link:focus {
   background: var(--highlight-color);
-  --color4: var(--second-type-color);
+  --color1: var(--second-type-color);
 }
 
 .team-li {
