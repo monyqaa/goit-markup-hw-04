@@ -52,6 +52,11 @@ body {
   color: var(--highlight-color);
 }
 
+.mail-icon {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
 .first-headline {
   font-weight: 900;
   font-size: 44px;
