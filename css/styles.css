@@ -165,6 +165,11 @@ h2 {
   color: var(--highlight-color);
 }
 
+.footer-text {
+  color: var(--second-type-color);
+  margin-bottom: 20px;
+}
+
 .horizontal-line {
   border: 1px solid #ececec;
 }
@@ -362,6 +367,41 @@ header {
 .footer {
   background: var(--second-background);
   padding: 60px 0;
+}
+
+.footer .container {
+  display: flex;
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-social-li {
+  margin-right: 10px;
+}
+
+.footer-social-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  --color1: var(--second-type-color);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background: var(--highlight-color);
+  --color1: var(--second-type-color);
+}
+
+.footer-right {
+  margin-left: 70px;
 }
 
 .address-list {
